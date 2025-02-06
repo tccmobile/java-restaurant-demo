@@ -1,0 +1,21 @@
+{
+    "name": "Java Restaurant Demo",
+    "image": "mcr.microsoft.com/devcontainers/java:11",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "vscjava.vscode-java-debug",
+                "vscjava.vscode-java-test",
+                "vscjava.vscode-maven"
+            ]
+        }
+    },
+
+    "features": {
+        "java": "11"
+    },
+
+    "postCreateCommand": "echo 'Java development environment is ready!'"
+}
