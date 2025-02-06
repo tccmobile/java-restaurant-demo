@@ -1,4 +1,3 @@
-package src.main.java;
 
 class Restaurant {
     private String name;
